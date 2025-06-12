@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Akira';
-  src: url('/fonts/akira.woff2') format('woff2');
+  src: url('/fonts/Akira.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -70,6 +70,6 @@ body {
 }
 
 
-h1, h2, h3, .logo {
+h1 {
   font-family: 'Akira', sans-serif;
 }

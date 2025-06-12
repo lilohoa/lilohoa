@@ -49,9 +49,9 @@ const { isDarkMode } = useDarkMode()
         {/* Logo riêng */}
   <a href='/' className={styles.logoWrapper}>
   <img
-  src='/logo.svg'
+  src={isDarkMode ? '/logo-light.svg' : '/logo-dark.svg'}
   alt='Logo'
-  className={`${styles.logoImage} ${isDarkMode ? styles.dark : styles.light}`}
+  className={styles.logoImage}
 />
 </a>
 

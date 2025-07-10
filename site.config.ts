@@ -59,11 +59,11 @@ export default siteConfig({
     },
     {
       title: 'About',
-      pageId: 'f1199d37579b41cbabfc0b5174f4256a'
+      pageId: '20fbd16a8308810c954de98088fdf494'
     },
     {
-      title: 'Blog',
-      pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+      title: 'Contact',
+      pageId: '20fbd16a830881ef99c6da782b367baa'
     }
   ]
 })

@@ -1,4 +1,10 @@
 'use client'
+// Temporary fix for Vercel build type errors
+declare module 'prismjs/components/prism-markup-templating.js';
+declare module 'prismjs/components/prism-markup.js';
+declare module 'prismjs/components/prism-bash.js';
+declare module 'prismjs/components/prism-js-templates.js';
+
 
 import gsap from 'gsap'
 import { useEffect } from 'react'

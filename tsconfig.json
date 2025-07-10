@@ -14,7 +14,7 @@
     "**/*.ts",
     "**/*.tsx",
     "*.config.ts",
-    "prismjs.d.ts"
+    "components/**/*.d.ts"
   ],
   "exclude": ["node_modules"]
 }

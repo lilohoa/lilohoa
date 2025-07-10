@@ -6,6 +6,9 @@
  * whereas our goal with this site is to adjust Notion's styling in a few key
  * places to add some flare.
  */
+.notion-page-scroller {
+  background: #E5E7EB;
+}
 
 .notion {
   --notion-max-width: 720px;
@@ -359,11 +362,13 @@
 }
 
 .notion-header {
+
   background: hsla(0, 0%, 100%, 0.8);
   backdrop-filter: saturate(180%) blur(16px);
 }
 
 .dark-mode .notion-header {
+  
   background: transparent;
   box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
   backdrop-filter: saturate(180%) blur(20px);
@@ -372,7 +377,7 @@
 /* Workaround for Firefox not supporting backdrop-filter yet */
 @-moz-document url-prefix() {
   .dark-mode .notion-header {
-    background: hsla(203, 8%, 20%, 0.8);
+    background: hsla(203, 16%, 22%, 0.8);
   }
 }
 

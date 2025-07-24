@@ -1,5 +1,4 @@
 import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText'
-
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'

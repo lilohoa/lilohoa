@@ -1,20 +1,13 @@
 'use client'
-// Temporary fix for Vercel build type errors
-declare module 'prismjs/components/prism-markup-templating.js';
-declare module 'prismjs/components/prism-markup.js';
-declare module 'prismjs/components/prism-bash.js';
-declare module 'prismjs/components/prism-js-templates.js';
-
-
-import gsap from 'gsap'
-import { useEffect } from 'react'
 import cs from 'classnames'
+import gsap from 'gsap'
 import dynamic from 'next/dynamic'
 import Image from 'next/legacy/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { type PageBlock } from 'notion-types'
 import { formatDate, getBlockTitle, getPageProperty } from 'notion-utils'
+import { useEffect } from 'react'
 import * as React from 'react'
 import BodyClassName from 'react-body-classname'
 import {
@@ -40,6 +33,14 @@ import { Page404 } from './Page404'
 import { PageAside } from './PageAside'
 import { PageHead } from './PageHead'
 import styles from './styles.module.css'
+
+
+
+// Temporary fix for Vercel build type errors
+declare module 'prismjs/components/prism-markup-templating.js';
+declare module 'prismjs/components/prism-markup.js';
+declare module 'prismjs/components/prism-bash.js';
+declare module 'prismjs/components/prism-js-templates.js';
 
 // ─────────────────────────────────────────────
 // dynamic imports for optional components

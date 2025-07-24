@@ -1,7 +1,7 @@
 'use client'
 
-import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
+import { useEffect, useRef } from 'react'
 
 export default function AnimatedTitle() {
   const titleRef = useRef<HTMLHeadingElement>(null)

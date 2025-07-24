@@ -1,5 +1,6 @@
-import styles from './styles.module.css'
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
+
+import styles from './styles.module.css'
 
 export function GitHubShareButton() {
   return (

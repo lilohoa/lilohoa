@@ -179,10 +179,14 @@ export function NotionPage({ site, recordMap, error, pageId }: types.PageProps) 
     config.defaultPageCover,
     block
   )
+// Nếu là trang Home (pageId = site.rootNotionPageId) thì gán description riêng
+let customDescription = ''
+if (pageId === site.rootNotionPageId) {
+  customDescription = 'Hi, I’m Lilohoa – a UX/UI designer blending motion, web, and product with a love for storytelling, animation, and everyday reflections.'
+}
 
-  const socialDescription =
-    getPageProperty<string>('Description', block, recordMap) || config.description
-
+const socialDescription =
+  customDescription || getPageProperty<string>('Description', block, recordMap) || config.description
   return (
     <>
       <PageHead

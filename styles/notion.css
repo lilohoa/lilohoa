@@ -6,8 +6,14 @@
  * whereas our goal with this site is to adjust Notion's styling in a few key
  * places to add some flare.
  */
+
+ /* background dark mode */
 .notion-page-scroller {
   background: #E5E7EB;
+}
+
+body.dark-mode .notion-page-scroller {
+  background: #111;
 }
 
 .notion {

@@ -17,7 +17,6 @@ import {
 } from 'react-notion-x'
 import { EmbeddedTweet, TweetNotFound, TweetSkeleton } from 'react-tweet'
 import { useSearchParam } from 'react-use'
-
 import type * as types from '@/lib/types'
 import * as config from '@/lib/config'
 import { mapImageUrl } from '@/lib/map-image-url'

@@ -2,7 +2,12 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
+  rootNotionPageId: '20fbd16a83088078b0dde32b45db21cb',
+  rootNotionSpaceId: 'e2d02841-5074-40dc-94bf-5085aab1cdb6',
+  name: 'lilohoa',
+  domain: 'www.lilohoa.com',
+  author: 'lilohoa',
+  description: 'lilohoa - digital designer',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)

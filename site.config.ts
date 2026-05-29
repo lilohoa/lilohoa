@@ -25,7 +25,7 @@ export default siteConfig({
 
   // whether or not redis is enabled for caching generated preview images (optional)
   isRedisEnabled: false,
-
+  isSocialImageSupportEnabled: false,
   pageUrlOverrides: null,
 
   navigationStyle: 'custom',
